@@ -8,12 +8,12 @@
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px white;
-  background: image_url('circle-blues.png');
+  background: image_url('tex2res4_@2X.png');
 }
 
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
-  font-weight: 150;
+  font-weight: 200;
   color: white;
 }
 
@@ -62,5 +62,49 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: image_url('bg.png');
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  color: #646265;
+  color: white;
+}
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(62, 22, 32, 0.9);
+  color: white;
+  font-family: "helvetica Neue", Helvetica;
+  padding: 10px 0px;
+  margin-top: 30px
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
 }
