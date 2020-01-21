@@ -15,13 +15,8 @@ class Instructor::CoursesController < ApplicationController
     end
   end
 
-  # def show
-  #   # @course = Course.find(params[:id])
-  # end
-
-  def update
-    current_course.update_attributes(lesson_params)
-    render plain: 'updated!'
+  def show
+    @section = Section.new
   end
 
     private
