@@ -19,6 +19,11 @@ class Instructor::CoursesController < ApplicationController
   #   # @course = Course.find(params[:id])
   # end
 
+  def update
+    current_course.update_attributes(lesson_params)
+    render plain: 'updated!'
+  end
+
     private
 
   def require_authorized_for_current_course
