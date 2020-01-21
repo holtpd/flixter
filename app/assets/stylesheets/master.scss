@@ -7,14 +7,15 @@
 .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
-  box-shadow: 0px 1px 3px white;
+  box-shadow: 0px 1px 3px rgb(1, 0, 3);
   background: image_url('tex2res4_@2X.png');
 }
 
 .navbar-inverse a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
-  color: white;
+  font-family: "Copperplate";
+  font-weight: 1000;
+  font-size: 35px;
+  color: rgb(35, 243, 205);
 }
 
 .hero {
@@ -32,14 +33,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty {
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
+  background: rgba(2, 2, 2, 0.5);
+  color: rgb(235, 95, 8);
 }
 
 .frosty h1 {
   font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100; 
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  font-weight: 300; 
+  text-shadow: rgb(35, 243, 205) 1px 1px;
   color: black; 
 
 }
@@ -47,8 +48,8 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .frosty h2 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
-  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
-  color: black;
+  text-shadow:  rgb(35, 243, 205) 1px 1px;
+  color: rgb(7, 7, 7);
 }
 
 .btn {
@@ -69,13 +70,13 @@ body {
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 black;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
+  -webkit-box-shadow: 1px 1px 2px 0 #1b0505;
+  box-shadow: 1px 1px 2px 0 #0f68ee00;
+  background: rgb(37, 79, 118);
   border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  border-color: #df1df8 #000202 #03f723 #f80404;
   padding: 10px;
-  color: black
+  color: rgb(9, 11, 12)
 }
 
 .booyah-box h2, .booyah-box h1 {
@@ -100,16 +101,16 @@ body {
   position: relative;
   width: 100%;
   min-height: 100px;
-  background-color: rgba(62, 22, 32, 0.9);
-  color: white;
-  font-family: "helvetica Neue", Helvetica;
+  background-color: rgba(233, 233, 236, 0.081);
+  color: rgb(2, 1, 0);
+  font-family: "Copperplate";
   padding: 10px 0px;
   margin-top: 30px
 }
 
 #footer a {
-  color: white;
-  font-weight: 100;
+  color:  rgb(29, 29, 247);
+  font-weight: 200;
 }
 
 .help-block {
@@ -124,11 +125,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: black;
+  color: rgb(35, 243, 205);
 }
 
 .lesson {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   margin-top: 10px;
   height: 130px;
 }
@@ -140,7 +141,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .lesson a {
-  color: white;
+  color: rgb(241, 7, 7);
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   font-size: 15px;
