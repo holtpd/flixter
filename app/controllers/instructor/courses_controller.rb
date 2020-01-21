@@ -1,10 +1,11 @@
 class Instructor::CoursesController < ApplicationController
   before_action :authenticate_user!
-  before_action :require_authorized_for_current_course, only: [:show]
+  before_action :require_authorized_for_current_section, only: [:new, :create]
+  before_action :require_authorized_for_current_lesson, only: [:update]
   
-  def new
-    @course = Course.new
-  end
+  # def new
+  #   @course = Course.new
+  # end
 
   def create
     @course = current_user.courses.create(course_params)
@@ -17,6 +18,7 @@ class Instructor::CoursesController < ApplicationController
 
   def show
     @section = Section.new
+    @lesson = Lesson.new
   end
 
     private
