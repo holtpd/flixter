@@ -83,6 +83,8 @@ test:
 #
 production:
   <<: *default
-  database: flixter_production
-  #username: flixter
-  password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
+  database: dc5cg10mnime5p
+  username: kmgzbetflfxgzk
+  host: ec2-54-83-33-14.compute-1.amazonaws.com
+  #password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
+  password: 65f523eb53bed940409c0fbdd2aa5851acb1ef7450f83b8e28b971858084d83b
