@@ -16,7 +16,7 @@ class Instructor::SectionsController < ApplicationController
 
   def require_authorized_for_current_course
     if current_course.user != current_user
-        render plain: "unauthorized", status: :unauthorized
+        render plain: "You must be Enrolled", status: :unauthorized
     end
   end
 

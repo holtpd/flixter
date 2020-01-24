@@ -18,7 +18,7 @@ class Instructor::LessonsController < ApplicationController
 
   def require_authorized_for_current_lesson
     if current_lesson.section.course.user != current_user
-      render plain: 'Unauthorized', status: :unauthorized
+      render plain: 'You must be Enrolled', status: :unauthorized
     end
   end
 
@@ -28,7 +28,7 @@ class Instructor::LessonsController < ApplicationController
 
   def require_authorized_for_current_section
     if current_section.course.user != current_user
-      return render plain: 'Unauthorized', status: :unauthorized
+      return render plain: 'UYou must be Enrolled', status: :unauthorized
     end
   end
 
